@@ -1,5 +1,5 @@
 {
-	"chapters": ["chapter_1", "chapter_2"],
+	"chapters": ["chapter_1", "chapter_2", "chapter_3"],
 	"exercises": [
 		[
 			"exercise_8.c",
@@ -31,6 +31,14 @@
 			"exercise_8.c",
 			"exercise_9.c",
 			"exercise_10.c"
+		],
+		[
+			"exercise_1.c",
+			"exercise_2.c",
+			"exercise_3.c",
+			"exercise_4.c",
+			"exercise_5.c",
+			"exercise_6.c"
 		]
 	]
 }
