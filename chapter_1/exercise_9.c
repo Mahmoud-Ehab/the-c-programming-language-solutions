@@ -10,9 +10,14 @@ int main() {
 	int c;
 	int blankFound = 0;
 	while ((c = getchar()) != EOF) {
-		if (!blankFound) putchar(c);
+		if (c == ' ') 
+			blankFound = 1;
+		else if (blankFound) {
+			blankFound = 0;
+			putchar(' ');
+		}
 
-		if (c == ' ') blankFound = 1;
-		else blankFound = 0;
+		if (!blankFound) 
+			putchar(c);
 	}
 }
